@@ -8,7 +8,6 @@ Editor:  Mr.Wu
 #ifndef CBARCODE39
 #define CBARCODE39
 
-#include "BarCodeItem/barcodelib_global.h"
 #include <string>
 #include <vector>
 #include <math.h>
@@ -32,7 +31,7 @@ struct element39
 		value(svalue),code39(scode39),encoding(sencoding){}
 };
 
-class BARCODELIB_EXPORT CBarCode39
+class  CBarCode39
 {
 public:
 	CBarCode39(string);
