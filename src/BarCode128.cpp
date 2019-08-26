@@ -1,4 +1,4 @@
-#include "CBarCode128.h"
+#include "BarCode128.h"
 #include <iostream>
 #include <iosfwd>
 
