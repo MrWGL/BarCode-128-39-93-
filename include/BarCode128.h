@@ -14,7 +14,6 @@
 #ifndef CBARCODE128_H
 #define CBARCODE128_H
 
-#include "BarCodeItem/barcodelib_global.h"
 #include <vector>
 #include <string>
 #include <math.h>
@@ -79,7 +78,7 @@ struct BarCodeInfo
 };
 
 
-class BARCODELIB_EXPORT CBarCode128
+class  CBarCode128
 {
 public:
 	CBarCode128(string);
