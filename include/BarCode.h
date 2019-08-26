@@ -8,7 +8,6 @@
 *Editor: Mr.Wu
 */
 
-#include "BarCodeItem/barcodelib_global.h"
 #include <vector>
 #include <string>
 using namespace std;
@@ -51,7 +50,7 @@ struct CodeInfo
 *创建条码编码，使用此类来创建。
 *根据类型，来创建。
 */
-class BARCODELIB_EXPORT CBarCode
+class  CBarCode
 {
 public:
     CBarCode(string text,BARCODE_TYPE iType = CODE128AUTO);
